@@ -1,0 +1,17 @@
+@media screen and (min-width: 992px) {
+
+    /* LEFT SIDE - LATERAL BAR*/
+
+    aside{
+        width: 150px;
+    }
+
+    .sidebar{
+        padding: 37px;
+    }
+
+    .sidebar-up, .sidebar-down{
+        text-align: left;
+    }
+
+}
