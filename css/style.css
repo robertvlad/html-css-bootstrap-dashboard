@@ -3,3 +3,46 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* HEADER BAR FIXED */
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 65px;
+    background-color: #f8f9fa;
+}
+
+.img-logo-mobile{
+    height: 50px;
+}
+
+.img-logo-desktop{
+    height: 30px;
+}
+
+.search-bar{
+    height: 100%;
+}
+
+.search-bar input{
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: #e5e5e5;
+    width: 100%;
+}
+
+.header-right ul{
+    list-style-type: none;
+    gap: 15px;
+    padding: 10px 10px 0 0;
+}
+
+#bell-btn{
+    color: #ff8f00;
+}
